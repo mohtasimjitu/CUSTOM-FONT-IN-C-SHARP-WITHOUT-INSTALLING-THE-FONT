@@ -22,12 +22,13 @@ It works by embedding font files as resources and loading them at runtime using 
 ## 📂 Project Structure
 ```
 CUSTOM-FONT-IN-C-SHARP-WITHOUT-INSTALLING-THE-FONT/
-│
-├── EmbeddedFontLoader.cs   # Handles loading/disposal of embedded fonts
-├── Form1.cs                # Example usage of custom fonts in a WinForm
-├── Form1.Designer.cs       # UI designer file
-├── Program.cs              # Entry point
-└── CUSTOM FONT LOADER.sln  # Visual Studio solution file
+├──CUSTOM FONT LOADER.sln  # Visual Studio solution file
+└──CUSTOM FONT LOADER
+   └── EmbeddedFontLoader.cs   # Handles loading/disposal of embedded fonts
+   └── Form1.cs                # Example usage of custom fonts in a WinForm
+   └── Form1.Designer.cs       # UI designer file
+   └── Program.cs              # Entry point
+
 ```
 
 ---
