@@ -6,7 +6,7 @@ It works by embedding font files as resources and loading them at runtime using 
 
 ---
 
-![App Screenshot](image-mh.png)
+![App Screenshot](image.png)
 
 
 ---
