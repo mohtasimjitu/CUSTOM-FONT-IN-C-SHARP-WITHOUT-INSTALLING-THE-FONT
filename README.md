@@ -44,15 +44,12 @@ CUSTOM-FONT-IN-C-SHARP-WITHOUT-INSTALLING-THE-FONT/
    {
        _fontLoader = new EmbeddedFontLoader();
 
-       _fontLoader.LoadFontsFromResources(
-           "CUSTOM_FONT_LOADER.Nevan RUS.ttf"  // Namespace + file name
-       );
+            _fontLoader.LoadFontsFromResources(
+                "CUSTOM_FONT_LOADER.Nevan RUS.ttf"
 
-       label1.Font = new Font(
-           _fontLoader.GetFontFamilyByName("Nevan RUS"),
-           18f,
-           FontStyle.Regular
-       );
+            );
+
+            label1.Font = new Font(_fontLoader.GetFontFamilyByName("Nevan RUS"), 18f, FontStyle.Regular);
    }
    ```
 
